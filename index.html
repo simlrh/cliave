@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <title>Jèrriais Keyboard</title>
   <style type="text/css">
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+    }
     body,
     p {
       font: 10pt Tahoma;
@@ -26,88 +30,97 @@
       background-color: lightgray;
       padding: 3px
     }
+
+    .image {
+      width:max-content;
+      margin-left:auto;
+      margin-right:auto;
+      text-align:center;
+    }
   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <h1>Jèrriais Smartphone Keyboard</h1>
+  <main>  <h1>Jèrriais Smartphone Keyboard</h1>
 
-  <h2>Smartphone Version</h1>
+    <h2>Smartphone Version</h1>
+  
+      <h3>Installation instructions</h3>
+  
+      <p>First, download the <a href="./jerriais.kmp">Jèrriais keyboard package</a> and the <a
+          href="./jt.nrf-je.spellcheck.model.kmp">Jèrriais autocomplete package</a> onto your phone.</p>
+      <p>Then install the <a href="https://keyman.com/">Keyman app</a>.</p>
+      <p>Follow the instuctions to enable Keyman as a system-wide keyboard, and if you are using an iPhone, also check
+        "Allow Full Access". Unfortunately there's currently a bug where the keyboard sometimes appears blank if you don't
+        do this.</p>
+      <p>If you previously installed <code>jerriais_tech.nrf-je.spellcheck.model.kmp</code>, delete that now by tapping
+        Settings, Installed Languages, Jèrriais, Dictionaries, and swiping left on Jèrriais Wordlist Lexical Model.</p>
+      <p>Next tap the three dots menu at the top right and tap Settings, then Install From File. Choose
+        <code>jt.nrf-je.spellcheck.model.kmp</code> first and follow the install process. Then Install From File again and
+        choose <code>jerriais.kmp</code>.
+      </p>
+      <p>The keyboard is now installed. You can go to Settings again, then Installed Languages. An English keyboard is
+        probably installed, but you already have one of those on your phone, so tap it, then EuroLatin (SIL) and Uninstall
+        Keyboard.</p>
+      <p>Just to double check everything is set up correctly, you can go back to Installed Languages, tap Jèrriais,
+        Dictionaries, and Jèrriais Wordlist Lexical Model. This selects the Jèrriais keyboard and autocorrect pacakge.</p>
+      <p>You're ready to go! Tap the globe to switch back and forth between the Jèrriais keyboard and your phone's normal
+        keyboard.</p>
+  
+      <h3>Usage</h3>
+  
+      <p>The smartphone keyboard layout is similar to English. You'll notice that the vowels and some other letters have
+        dots in the top right corner; this means you can hold down this key to find other options.
+        For example, holding down a vowel gives accent options, and holding down a punctuation key gives further
+        punctuation. Keep holding your finger down, slide to the desired option and release.
+      </p>
+  
+      <p>You can also use flicking gestures for commonly used accents.</p>
+      <ul>
+        <li>Flicking up on a vowel gives a circumflex</li>
+        <li>Flicking up and to the right on an appropriate vowel gives an acute accent</li>
+        <li>Flicking down and to the right on an appropriate vowel gives a grave accent</li>
+        <li>Flicking to the left gives a diaresis</li>
+        <li>Flicking down on the c key gives a cedilla</li>
+        <li>Flicking left on the full stop gives a comma</li>
+        <li>Flicking up on the apostrophe gives a double quote</li>
+      </ul>
+  
+      <p>Other punctuation can be found by pressing the 123 key.</p>
+  
+      <p class="image">
+        <img src="./iphone.jpg" alt="The Jèrriais keyboard layout on an iPhone 5S"
+          style="display:block;width:100%;max-width:526px" />
+        Jèrriais keyboard on iPhone
+      </p>
+      <p class="image">
+        <img src="./android.jpg" alt="The Jèrriais keyboard layout on a Google Pixel 5"
+          style="display:block;width:100%;max-width:526px" />
+        Jèrriais keyboard on Android
+      </p>
+  
+      <h2>Desktop Version</h2>
+      <h3>Installation instructions</h3>
+      <p>Install the <a href="https://keyman.com/">Keyman app</a> and download the <a href="./jerriais.kmp">Jèrriais
+          keyboard package</a>.
+        Start Keyman and open the Keyman Configuration. Click Install keyboard... at the bottom left and select the
+        <code>jerriais.kmp</code> file.
+      </p>
+  
+      <p>With everything installed and the Jèrriais keyboard selected you should be able to use the shortcuts below.</p>
+  
+      <h3>Usage</h3>
+      <p>On a desktop computer you use your keyboard normally, until you want to use an accent:</p>
+  
+      <ul>
+        <li>vowel followed by two single quotes ('') creates an acute accent: <code>e'' = é</code></li>
+        <li>vowel followed by two backticks (``) creates a grave accent: <code>a`` = à</code></li>
+        <li>vowel (or "y") followed by two carets (^^) creates a circumflex: <code>o^^ = ô</code></li>
+        <li>vowel followed by two double quotes ("") creates a diaresis: <code>i"" = ï</code></li>
+        <li>a "c" followed by two commas (,,) creates a cedilla: <code>c,, = ç</code></li>
+      </ul></main>
 
-    <h3>Installation instructions</h3>
-
-    <p>First, download the <a href="./jerriais.kmp">Jèrriais keyboard package</a> and the <a
-        href="./jt.nrf-je.spellcheck.model.kmp">Jèrriais autocomplete package</a> onto your phone.</p>
-    <p>Then install the <a href="https://keyman.com/">Keyman app</a>.</p>
-    <p>Follow the instuctions to enable Keyman as a system-wide keyboard, and if you are using an iPhone, also check
-      "Allow Full Access". Unfortunately there's currently a bug where the keyboard sometimes appears blank if you don't
-      do this.</p>
-    <p>If you previously installed <code>jerriais_tech.nrf-je.spellcheck.model.kmp</code>, delete that now by tapping
-      Settings, Installed Languages, Jèrriais, Dictionaries, and swiping left on Jèrriais Wordlist Lexical Model.</p>
-    <p>Next tap the three dots menu at the top right and tap Settings, then Install From File. Choose
-      <code>jt.nrf-je.spellcheck.model.kmp</code> first and follow the install process. Then Install From File again and
-      choose <code>jerriais.kmp</code>.
-    </p>
-    <p>The keyboard is now installed. You can go to Settings again, then Installed Languages. An English keyboard is
-      probably installed, but you already have one of those on your phone, so tap it, then EuroLatin (SIL) and Uninstall
-      Keyboard.</p>
-    <p>Just to double check everything is set up correctly, you can go back to Installed Languages, tap Jèrriais,
-      Dictionaries, and Jèrriais Wordlist Lexical Model. This selects the Jèrriais keyboard and autocorrect pacakge.</p>
-    <p>You're ready to go! Tap the globe to switch back and forth between the Jèrriais keyboard and your phone's normal
-      keyboard.</p>
-
-    <h3>Usage</h3>
-
-    <p>The smartphone keyboard layout is similar to English. You'll notice that the vowels and some other letters have
-      dots in the top right corner; this means you can hold down this key to find other options.
-      For example, holding down a vowel gives accent options, and holding down a punctuation key gives further
-      punctuation. Keep holding your finger down, slide to the desired option and release.
-    </p>
-
-    <p>You can also use flicking gestures for commonly used accents.</p>
-    <ul>
-      <li>Flicking up on a vowel gives a circumflex</li>
-      <li>Flicking up and to the right on an appropriate vowel gives an acute accent</li>
-      <li>Flicking down and to the right on an appropriate vowel gives a grave accent</li>
-      <li>Flicking to the left gives a diaresis</li>
-      <li>Flicking down on the c key gives a cedilla</li>
-      <li>Flicking left on the full stop gives a comma</li>
-      <li>Flicking up on the apostrophe gives a double quote</li>
-    </ul>
-
-    <p>Other punctuation can be found by pressing the 123 key.</p>
-
-    <p>
-      <img src="./iphone.jpg" alt="The Jèrriais keyboard layout on an iPhone 5S"
-        style="display:block;width:100%;max-width:526px" />
-      Jèrriais keyboard on iPhone
-    </p>
-    <p>
-      <img src="./android.jpg" alt="The Jèrriais keyboard layout on a Google Pixel 5"
-        style="display:block;width:100%;max-width:526px" />
-      Jèrriais keyboard on Android
-    </p>
-
-    <h2>Desktop Version</h2>
-    <h3>Installation instructions</h3>
-    <p>Install the <a href="https://keyman.com/">Keyman app</a> and download the <a href="./jerriais.kmp">Jèrriais
-        keyboard package</a>.
-      Start Keyman and open the Keyman Configuration. Click Install keyboard... at the bottom left and select the
-      <code>jerriais.kmp</code> file.
-    </p>
-
-    <p>With everything installed and the Jèrriais keyboard selected you should be able to use the shortcuts below.</p>
-
-    <h3>Usage</h3>
-    <p>On a desktop computer you use your keyboard normally, until you want to use an accent:</p>
-
-    <ul>
-      <li>vowel followed by two single quotes ('') creates an acute accent: <code>e'' = é</code></li>
-      <li>vowel followed by two backticks (``) creates a grave accent: <code>a`` = à</code></li>
-      <li>vowel (or "y") followed by two carets (^^) creates a circumflex: <code>o^^ = ô</code></li>
-      <li>vowel followed by two double quotes ("") creates a diaresis: <code>i"" = ï</code></li>
-      <li>a "c" followed by two commas (,,) creates a cedilla: <code>c,, = ç</code></li>
-    </ul>
 </body>
 
 </html>
